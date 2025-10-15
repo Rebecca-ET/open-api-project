@@ -24,3 +24,6 @@ fetch(
     document.getElementById("weather").textContent =
       "Failed to load weather data.";
   });
+
+
+// How do I convert the temperature to Fahrenheit and the wind speed to miles/hour? 
