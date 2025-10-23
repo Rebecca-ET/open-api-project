@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: aliceblue;
+  padding: 0px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+#weather,
+#airQuality {
+  background: white;
+  width: 90%;
+  max-width: 375px;
+  padding: 20px;
+  border-radius: 8px;
+  vertical-align: top;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: white;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content:center;
+}
+
+@media (min-width: 450px) {
+  .container {
+    flex-direction: row;
+    background: aliceblue;
+  }
+}
